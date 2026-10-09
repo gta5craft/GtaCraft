@@ -1,0 +1,8 @@
+inicpp.h
+Created on: 26 Dec 2015
+Author: Fabian Meyer
+License: MIT
+
+The original attributed file is retained without removing its header at
+source/_asset_tools/RageOpenV/src/utils/inicpp.h.
+This file preserves the original attribution; it does not replace upstream license terms.

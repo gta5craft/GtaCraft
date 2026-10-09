@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "status": "historical_illustrations",
+  "selection_count": 6,
+  "image_editing_performed": false,
+  "note": "Historical project screenshots, not acceptance evidence for the current pair. Game imagery retains its original owners' rights.",
+  "images": [
+    {
+      "destination": "screenshots/01-blocks-in-los-santos.png",
+      "sha256": "1ffb72e1b363286efdd7ca6e0fe2e386b4547fd23ca172a1d2baaf120807ee7f",
+      "bytes": 264589,
+      "width": 640,
+      "height": 360,
+      "scope": "Historical repository image; exact build not established",
+      "caption_en": "Placed Minecraft block and HUD in a GTA interior",
+      "caption_hu": "Minecraft-blokk és HUD GTA-belső térben",
+      "current_build_acceptance": false
+    },
+    {
+      "destination": "screenshots/02-developer-menu.png",
+      "sha256": "1b74a1753cfa29bd5bef29c65733ea47e99aea36701a16cbf429ba5428fcf0eb",
+      "bytes": 401663,
+      "width": 960,
+      "height": 540,
+      "scope": "Historical repository image; older menu labels",
+      "caption_en": "Developer menu above Los Santos",
+      "caption_hu": "Fejlesztői menü Los Santos fölött",
+      "current_build_acceptance": false
+    },
+    {
+      "destination": "screenshots/03-gate-in-los-santos.png",
+      "sha256": "e149b581102cc19cff3058ca44bbe54287ede2a5f626dd5cc31d03532da2114b",
+      "bytes": 640178,
+      "width": 960,
+      "height": 540,
+      "scope": "Historical repository image; exact build not established",
+      "caption_en": "Cobblestone gate in Los Santos",
+      "caption_hu": "Cobblestone-kapu Los Santosban",
+      "current_build_acceptance": false
+    },
+    {
+      "destination": "screenshots/04-native-franklin-overworld.png",
+      "sha256": "e49acf2cae962443c1e001595f8e972c8c414159ac5f5c68937975477b360508",
+      "bytes": 1690310,
+      "width": 1920,
+      "height": 1080,
+      "scope": "Historical phase1; radar predates Own-mode hide policy",
+      "caption_en": "Native Franklin at night in Minecraft terrain",
+      "caption_hu": "Natív Franklin éjszaka Minecraft-terepen",
+      "current_build_acceptance": false
+    },
+    {
+      "destination": "screenshots/05-native-weapon-wheel.png",
+      "sha256": "76b517046ca4793406dfc9d6622f46cd9a9fac24829fc83d5fa40795a1e294c2",
+      "bytes": 1718711,
+      "width": 1920,
+      "height": 1080,
+      "scope": "Historical phase1 selected native UI frame",
+      "caption_en": "Native weapon wheel above Minecraft terrain",
+      "caption_hu": "Natív fegyverkerék Minecraft-terep fölött",
+      "current_build_acceptance": false
+    },
+    {
+      "destination": "screenshots/06-native-phone.png",
+      "sha256": "ac32a407c06dee99b4490d9527d20b20e04924ca6f4ed4971d405e76938107b8",
+      "bytes": 1635162,
+      "width": 1920,
+      "height": 1080,
+      "scope": "Historical phase1 fictional Contacts phone frame",
+      "caption_en": "Native Contacts phone above Minecraft terrain",
+      "caption_hu": "Natív Contacts telefon Minecraft-terep fölött",
+      "current_build_acceptance": false
+    }
+  ]
+}

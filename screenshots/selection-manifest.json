@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "status": "historical_illustrations",
-  "selection_count": 7,
+  "selection_count": 8,
   "image_editing_performed": false,
   "note": "Historical project screenshots, not acceptance evidence for the current pair. Game imagery retains its original owners' rights.",
   "images": [
@@ -80,6 +80,17 @@
       "scope": "User-supplied gameplay screenshot on 9 October 2026; exact build not independently established",
       "caption_en": "The End fight over the city of Los Santos",
       "caption_hu": "End-harc Los Santos városa fölött",
+      "current_build_acceptance": false
+    },
+    {
+      "destination": "screenshots/08-driving-in-minecraft.png",
+      "sha256": "2559a4cfb8030a21be59c759f37ffeba559516d435c9fc416edfeea8e6c2f021",
+      "bytes": 1146519,
+      "width": 919,
+      "height": 651,
+      "scope": "User-supplied gameplay image on 9 October 2026; exact build not independently established",
+      "caption_en": "Driving in Minecraft",
+      "caption_hu": "Autózás a Minecraftban",
       "current_build_acceptance": false
     }
   ]

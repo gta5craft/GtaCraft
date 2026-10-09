@@ -28,6 +28,6 @@ Status: 9 October 2026 documentation for the 7 October wallfix pair. This page s
 
 ## Reporting / Hibajelentés
 
-Use GitHub Issues for reproducible technical reports, or contact [gekkovilaga@gmail.com](mailto:gekkovilaga@gmail.com). Include the release, exact versions, scene, vehicle/weapon, reproduction steps and an image/clip. Redact credentials, personal paths and chat before sharing logs. A native Java crash needs the newest `hs_err_pid*.log`; a console exit code alone is insufficient.
+Use GitHub Issues for reproducible technical reports, or contact [admin@mannin.hu](mailto:admin@mannin.hu). Include the release, exact versions, scene, vehicle/weapon, reproduction steps and an image/clip. Redact credentials, personal paths and chat before sharing logs. A native Java crash needs the newest `hs_err_pid*.log`; a console exit code alone is insufficient.
 
 Technikai hibához kiadás, verziók, világ/mód, jármű/fegyver, lépések és kép/videó kell. Naplót csak privát adatok kitakarása után küldj. Natív Java-crashhez a legújabb `hs_err_pid*.log` szükséges, a kilépési kód önmagában kevés.

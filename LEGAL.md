@@ -4,7 +4,7 @@ Documentation reviewed on **9 October 2026**. This is a project disclosure, not 
 
 ## Independent project and original-game requirements
 
-GtaCraft is maintained by **mannin1337 / gta5craft**. Contact: [gekkovilaga@gmail.com](mailto:gekkovilaga@gmail.com). It is independent of Rockstar Games, Take-Two Interactive, Mojang and Microsoft and has no approval, sponsorship or affiliation from them. See the prominent Minecraft disclaimer in [README.md](README.md).
+GtaCraft is maintained by **mannin1337 / gta5craft**. Contact: [admin@mannin.hu](mailto:admin@mannin.hu). It is independent of Rockstar Games, Take-Two Interactive, Mojang and Microsoft and has no approval, sponsorship or affiliation from them. See the prominent Minecraft disclaimer in [README.md](README.md).
 
 Users need their own legitimately licensed GTA V Legacy and Minecraft: Java Edition installations and normal accounts/activation. This project does not supply the games, shared accounts, activation keys, authentication bypasses or access to paid content. Use the supported **single-player Story Mode** setup. GTA Online, FiveM and Rockstar's licensed multiplayer services are not targets of this preview.
 
@@ -44,11 +44,11 @@ LLM development is disclosed in the README. It does not guarantee copyright elig
 
 The software is experimental and supplied as-is under the applicable component licenses. It may crash, lose state or behave unexpectedly. Back up saves and mod configuration, use a dedicated Minecraft instance and keep an untouched GTA installation. No guarantee of compatibility, performance, uninterrupted availability or fitness for any purpose is made. Any limitation applies only to the extent permitted by law and does not waive non-waivable statutory rights.
 
-For a rights concern, contact [gekkovilaga@gmail.com](mailto:gekkovilaga@gmail.com) with the material/URL and basis of the concern. The maintainer intends to review substantiated requests promptly and remove or correct affected material where appropriate. This is not an admission concerning every file or a promise that removal eliminates all potential liability. No rights-holder message has been sent on the maintainer's behalf as part of this preparation.
+For a rights concern, contact [admin@mannin.hu](mailto:admin@mannin.hu) with the material/URL and basis of the concern. The maintainer intends to review substantiated requests promptly and remove or correct affected material where appropriate. This is not an admission concerning every file or a promise that removal eliminates all potential liability. No rights-holder message has been sent on the maintainer's behalf as part of this preparation.
 
 ## Magyar jogi összefoglaló
 
-A projektgazda **mannin1337 / gta5craft**, közvetlen elérhetőség: **gekkovilaga@gmail.com**. A GtaCraft független a Rockstar Games, Take-Two Interactive, Mojang és Microsoft vállalatoktól; nincs engedélyezés, támogatás vagy partnerkapcsolat.
+A projektgazda **mannin1337 / gta5craft**, közvetlen elérhetőség: **admin@mannin.hu**. A GtaCraft független a Rockstar Games, Take-Two Interactive, Mojang és Microsoft vállalatoktól; nincs engedélyezés, támogatás vagy partnerkapcsolat.
 
 Saját, jogszerűen licencelt GTA V Legacy és Minecraft Java szükséges, normál bejelentkezéssel. A cél a GTA Story Mode; Online, FiveM és más hivatalos többjátékos szolgáltatás nem cél. A csomag nem tartalmaz játékot, fiókot, aktiválást megkerülő eszközt, másolt `update.rpf`-et, játékassetet, tokent, kulcsot vagy mentést. A kiadásnak nincs fizetős hozzáférése vagy játéktartalom-értékesítése; a forráslicencek által adott jogokat ez nem írja át.
 

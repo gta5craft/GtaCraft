@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "protocol_version": 15,
+  "menu_language": "en",
+  "requirements": {
+    "gta_file_version": "1.0.3889.0",
+    "minecraft_version": "26.3",
+    "fabric_loader_version": "0.19.5",
+    "java_major": 25,
+    "script_hook_sha256": "126be57ca9dca00e471f9de611766009c900aad88f89ae6c2926ec62e5aaeb4f",
+    "asi_loader_sha256": "9fd9e02353b7d39fe07b9667f7ea2697229a7f2d0e7d389eb79eb212b1bb181d",
+    "archive_loader_path": "GtaCraftRpfLoader.asi",
+    "archive_loader_sha256": "ad060b87250de458a8ef05cf5e00e5b05246428ef9a89518fec5f26dd470a4f9",
+    "collider_install_path": "mods/update/x64/dlcpacks/gtacraft_colliders/dlc.rpf",
+    "collider_sha256": "cfea8bb6c315379f058cbd810f7858272ff900f803f06116e8e638b2c6d8fb00"
+  },
+  "payloads": {
+    "asi": {
+      "path": "gta/GtaCraft.asi",
+      "sha256": "d6103f645a11ebec7f5d874403e10e566de1713b34c829bdf9b677495a2ebeed"
+    },
+    "jar": {
+      "path": "minecraft/skycraft-0.1.0-gtacraft.jar",
+      "sha256": "3e94aa5da7ca839af4dfa4836e0e980d3cf33382cafd4151dd0201dee53c8d42"
+    },
+    "ini": {
+      "path": "gta/GtaCraft.ini",
+      "sha256": "86346ef2c7fbb27ada6e4d3faa1219235c9517d394df1e36c0d8091f0076b2ee"
+    },
+    "fabric_api": {
+      "path": "minecraft/fabric-api-0.161.0+26.3.jar",
+      "sha256": "86f16178a3cecc887a85a4cfe9a79d92fa7341d8f39b5951a4d6ad800ab657a6"
+    },
+    "collider": {
+      "path": "gta/mods/update/x64/dlcpacks/gtacraft_colliders/dlc.rpf",
+      "sha256": "cfea8bb6c315379f058cbd810f7858272ff900f803f06116e8e638b2c6d8fb00"
+    }
+  },
+  "publication_status": "PUBLIC_PREVIEW"
+}

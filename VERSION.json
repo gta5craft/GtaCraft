@@ -1,5 +1,5 @@
 {
-  "name": "GtaCraft-2026-10-09-preview-EN",
+  "name": "GtaCraft-0.1.1-EN",
   "protocol": 15,
   "menu_language": "en",
   "documentation_language": "en+hu",
@@ -8,19 +8,16 @@
     "hu"
   ],
   "sha256": {
-    "asi": "d6103f645a11ebec7f5d874403e10e566de1713b34c829bdf9b677495a2ebeed",
+    "asi": "265f6fff17da206642cb9c9051aac034a935fe6d5b1bf8a5edaf370327f48df7",
     "jar": "3e94aa5da7ca839af4dfa4836e0e980d3cf33382cafd4151dd0201dee53c8d42",
     "ini": "86346ef2c7fbb27ada6e4d3faa1219235c9517d394df1e36c0d8091f0076b2ee"
   },
   "full_native_build_exit": 0,
-  "full_java_build_exit": 0,
-  "java_rebuilt": true,
+  "java_rebuilt": false,
   "retail_acceptance": false,
-  "publication_status": "PUBLIC_PREVIEW",
-  "rights_review_required": true,
+  "publication_status": "PUBLIC_RELEASE",
   "loader_binary_included": false,
   "games_included": false,
-  "parent_zip_sha256": "de177f4fdfb8da6c23873a097dc63184361c1b16d2c71981197ab48a6f99a90d",
   "source_sha256": {
     "BUILD.md": "d32f1110e543bb25da79ab8e29eedf4acba90c92e0234b2793c613ef0615e33d",
     "LICENSE": "a2d039b28dcc00c616b27ded3eb13de68f1e8a5ad095e23dc93a85d56cc6bb74",
@@ -98,7 +95,7 @@
     "_asset_tools/RageOpenV/src/vendor/minhook/src/trampoline.c": "57a661dc765766c501d2ef60e324f20045c8e299e862ea7c8e3a00360219aa89",
     "_asset_tools/RageOpenV/src/vendor/minhook/src/trampoline.h": "23681f7768d5dbd23ea14b45ba64e488a337501f23122253c532b05dbed4b85f",
     "_test_runtime/annihilator-20261007/write-order/test_constrain_write_order.py": "f5cd748a481a807f89f600d771569410c3bda18293a5bcd728452061a10ad6f3",
-    "asi/CMakeLists.txt": "427723d45091fa397aa6df0223a1a96ef3376072243c824b8a50879b5249afde",
+    "asi/CMakeLists.txt": "ef6e72f827db705a7b37e0825206e5b225a7a07a0531d9158997106a4ff34690",
     "asi/GtaCraft.ini": "86346ef2c7fbb27ada6e4d3faa1219235c9517d394df1e36c0d8091f0076b2ee",
     "asi/build.bat": "1144d0f7f5bc4abd4fd40fec2ffbe8b9d91205ec1f005cf0ff06873eac28df42",
     "asi/sdk-stub/main.h": "02ca90e609293a3c8b74b71398ba54fe70789de931625e46fb0d95fe4ec5e774",
@@ -173,7 +170,7 @@
     "asi/src/RagdollRecoveryPolicy.h": "739d464fd72af6e94fd9dfea0ce51c9433a1b336ecb06bd9d9cf1b21fe760a5e",
     "asi/src/RenderPoseChannel.h": "8758a88c2829a02313f7e89e903272b209a806d8db57fa56205a22670883be75",
     "asi/src/ShoreWater.h": "d8b398d2fb49c85507e06666927cff5ed72a5b60c4f74f066c64356025214dca",
-    "asi/src/TrainInteractions.cpp": "02a823fbed9dbf32c016a72381a5898316913192f8f4ad59ab766114cad6b549",
+    "asi/src/TrainInteractions.cpp": "f8b2e4739cc808bc3b1086ee7aed35483a3451f53db7d39c8f30e46b0200fb9e",
     "asi/src/TrainInteractions.h": "538738ca2bd7b35e110f9e2d9880e270ba2f676bc7e887b26dc831af4f684a28",
     "asi/src/Ui.cpp": "4069b4b77ace47d50b27fa31a29a9e2f958f5cd9f626bfee664572580fdf602c",
     "asi/src/Ui.h": "5c87e76208586a416dbaba7ef4c825e2966f108e109b96a88598692f6c08c201",
@@ -422,7 +419,7 @@
     "tools/test_ragdoll_recovery_integration.py": "592a501531223b7865c9f17e9171bb7dc1299565454e03d669b4f775c7d6e84c",
     "tools/test_realm_menu_return.py": "610d915caf3883342d32afc4846d48bc3df117b23e117ba953b5dae7d73dd979",
     "tools/test_shore_water.py": "08f7914b2236e36ebeee0364d2358fd79f34e8a24e54b054c392e01ef16e5a15",
-    "tools/test_train_interactions.py": "e8f14eadb1be759dadf8285749d690eb4272bad0e23b335cf522c7f47523dd42",
+    "tools/test_train_interactions.py": "0228427e243b81bd3349fffd44b0b1631b5b5bba009d8e5b73c3ecf44c2ebbec",
     "tools/test_train_terrain.py": "a69edeeee0707dd9ed4ab711dd958244093aff54b1a8a427fdf42a587695b0c3",
     "tools/test_vehicle_break_clusters.py": "a7539cbeb25cc521c14c9102300d7d7c83712c5dc526d09d21f9c59d250f4a68",
     "tools/test_vehicle_contact_episodes.py": "f3976d448df38b7bac5beb9eff5a86471be31ce3e918ba285bb0751805ff5ed3",
@@ -439,10 +436,19 @@
     "tools/test_wet_grounded_startup.py": "594ecf047e5dc9ac966e38237d374323f301d5cd648f47a6ebcb87a0f076752c",
     "tools/test_xp_orb_motion.py": "3b51acf432c622916a5d8350716f96f20f9deecc79027cb33498148bc52d74bf"
   },
-  "targeted_evidence": [],
+  "targeted_evidence": [
+    {
+      "test": "tools/test_train_interactions.py",
+      "passed": 46,
+      "failed": 0,
+      "retail_verified": false
+    }
+  ],
   "installed_by_packaging": false,
   "github_upload": false,
-  "current_status": "Experimental public preview. Documentation updated; gameplay pair unchanged from 7 October. No new retail acceptance test. See KNOWN_ISSUES.md.",
+  "current_status": "Bedrock leading-contact fix; 46 controlled native checks passed. Retail stopping latency and wreck appearance not retested.",
   "documentation_date": "2026-10-09",
-  "gameplay_build_date": "2026-10-07"
+  "gameplay_build_date": "2026-10-09",
+  "version": "0.1.1",
+  "tag": "v0.1.1"
 }

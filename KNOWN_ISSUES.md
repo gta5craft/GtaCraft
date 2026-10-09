@@ -1,6 +1,6 @@
 # Known issues / Ismert hibák
 
-Status: 9 October 2026 documentation for the 7 October wallfix pair. This page separates implemented code from accepted gameplay. No new gameplay test was run for publication.
+Status: 0.1.1. The train fix passed 46 controlled native checks and a full SDK build. These are code checks, not a new retail gameplay acceptance result. Other previously reported limits remain below.
 
 | Area | Current evidence and practical limit |
 |---|---|
@@ -11,7 +11,7 @@ Status: 9 October 2026 documentation for the 7 October wallfix pair. This page s
 | Vehicle entry and persistence | Earlier seating/ejection, death and saved-vehicle startup reports remain regression risks. Script ownership, handoff and visibility changes do not prove every vehicle/menu/world-transition combination safe. |
 | Native climbing | The helper requests GTA climbing on eligible full-cube ledges/shores; GTA animation completion, arbitrary shapes and difficult water edges are not guaranteed. |
 | Streaming and depth | Finite local collision/rendering coverage, missing or stale terrain, sharp corners, interiors and camera/authority changes can produce incorrect contact or occlusion. |
-| Trains and destruction | The implementation has bounded terrain/bedrock handling; uninterrupted retail train passage, exact wreck appearance and every explosive/loot interaction are not accepted. |
+| Trains and destruction | Known full-cube bedrock now has an independent leading-end sweep and first-face effect. Retail stopping latency, exact wreck appearance, uninterrupted train passage and every explosive/loot interaction remain unverified. |
 | End progression | Five towers and a temporary view budget are implemented. Full fight completion, remote crystal/entity delivery and every camera/occlusion case are not accepted. |
 | Installation | The custom archive loader must be built separately and the collider DLC mount prepared. The setup is not a clean-machine, dependency-free one-click installer. |
 | Other versions/multiplayer | GTA Enhanced/Online/FiveM, other GTA patches, Minecraft versions, arbitrary resource packs/mods and complete multiplayer synchronization are outside this preview's accepted target. |

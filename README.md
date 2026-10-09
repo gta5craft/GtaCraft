@@ -35,7 +35,7 @@ You need your own original copies of both games. **NOT AN OFFICIAL MINECRAFT PRO
 | Inventory and equipment | World transfer handles inventory, armor and offhand equipment, including elytra components. |
 | Movement assistance | Native ledge/shore climb assistance and a recovery attempt after seven continuous seconds of ragdoll. Normal cave falls remain possible. |
 | Animals and wanted levels | Hitting exported passive animals can trigger a wanted level. The Overworld has experimental local foot/patrol-police support as well as native aerial responses. |
-| Trains and bedrock | Coherent train contact can clear nearby non-bedrock Minecraft blocks. Bedrock requests a stopped/disabled train with an explosion effect while preserving the blocks. |
+| Trains and bedrock | Coherent train contact can clear nearby non-bedrock Minecraft blocks. The leading-end sweep stops/disables a train at known bedrock and places the explosion effect on the first contacted face, preserving the blocks. |
 | End encounter | A custom End fight above Los Santos, with up to five rooftop crystal towers and an increased Minecraft view budget around the cluster. |
 | Events and survival features | Night invasions, traders, death drops/XP, horses, elytra, linked time/weather and sleep. |
 | Developer menu | Spawn vehicles/NPCs, customize cars, change player/weather settings, get items, trigger events, run supported commands and teleport. Search, favorites, recent selections and saved waypoints are included. |
@@ -102,7 +102,7 @@ The GtaCraft-specific original code and adaptations were created through **LLM-a
 
 Original GtaCraft contributions retain their existing MIT license; separate components keep their own licenses, including the GPL-3.0 loader source. The license does not cover the games, their assets or trademarks. No original games, account data, activation keys, proprietary SDKs or custom loader binary are included.
 
-This is an unofficial, free project. Publisher approval is not claimed, and a disclaimer does not grant permission to use either game's IP. Read [LEGAL.md](LEGAL.md) for the policy references and distribution boundaries. Contact and rights enquiries: **[admin@mannin.hu](mailto:admin@mannin.hu)**. Report technical problems through [Issues](https://github.com/gta5craft/GtaCraft/issues).
+This is an unofficial, free project. Read [LEGAL.md](LEGAL.md) for distribution details and notices. Contact and rights enquiries: **[admin@mannin.hu](mailto:admin@mannin.hu)**. Report technical problems through [Issues](https://github.com/gta5craft/GtaCraft/issues).
 
 ### More screenshots / További képek
 
@@ -147,7 +147,7 @@ Mindkét eredeti játék saját példánya szükséges. **Nem hivatalos Minecraf
 | Inventory és felszerelés | Világváltáskor inventory, páncél és offhand felszerelés kezelése, elytra-komponensekkel együtt. |
 | Mozgási segítség | Natív perem-/partkapaszkodás kérése és hét másodperc folyamatos ragdoll után felállási próba. Normál barlangi zuhanás lehetséges. |
 | Állatok és körözés | Exportált békés állatok megütése körözést válthat ki. Az Overworld földi rendőr-/járőrautó-kezelése kísérleti; natív légi reakció is van. |
-| Vonatok és bedrock | Igazolt kontaktusnál a vonat közeli nem-bedrock blokkokat bonthat. Bedrock megállítást/üzemképtelenséget és robbanáseffektet kér, a blokkok megtartásával. |
+| Vonatok és bedrock | Igazolt kontaktusnál a vonat közeli nem-bedrock blokkokat bonthat. Az elöl haladó vég söprése ismert bedrocknál megállítja/letiltja a vonatot, az első érintett felületre tett robbanáseffekttel. A bedrock megmarad. |
 | End-harc | Egyedi End-harc Los Santos fölött, legfeljebb öt felhőkarcolós kristálytoronnyal és a környéken megnövelt Minecraft-látótávolsággal. |
 | Események és túlélés | Éjszakai invázió, kereskedők, halál utáni drop/XP, lovak, elytra, összekapcsolt idő/időjárás és alvás. |
 | Fejlesztői menü | Jármű-/NPC-spawn, autótestreszabás, játékos/időjárás, tárgyak, események, támogatott parancsok és teleport. Keresés, kedvencek, előzmények és saját helyek. |
@@ -214,4 +214,4 @@ A GtaCraft-specifikus saját kód és adaptációk **LLM-segített fejlesztésse
 
 A saját GtaCraft-hozzájárulások meglévő MIT licence megmarad, a külön összetevők saját licencei — köztük a GPL-3.0 loaderforrás — külön érvényesek. A licenc nem terjed ki a játékokra, assetjeikre és védjegyeikre. Eredeti játék, fiókadat, aktiválókulcs, zárt SDK és egyedi loader-bináris nincs mellékelve.
 
-Nem hivatalos, ingyenes projekt. Kiadói jóváhagyást nem állítunk; a disclaimer nem ad engedélyt a játékok IP-jére. Szabályzati hivatkozások és terjesztési határok: [LEGAL.md](LEGAL.md). Kapcsolat/jogi megkeresés: **[admin@mannin.hu](mailto:admin@mannin.hu)**. Technikai hibák: [Issues](https://github.com/gta5craft/GtaCraft/issues). A bemutatóképek fent, az angol rész végén szerepelnek.
+Nem hivatalos, ingyenes projekt. Terjesztési tudnivalók és nyilatkozatok: [LEGAL.md](LEGAL.md). Kapcsolat/jogi megkeresés: **[admin@mannin.hu](mailto:admin@mannin.hu)**. Technikai hibák: [Issues](https://github.com/gta5craft/GtaCraft/issues). A bemutatóképek fent, az angol rész végén szerepelnek.

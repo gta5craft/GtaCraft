@@ -1,27 +1,18 @@
-# Current preview / Aktuális előzetes
+# GtaCraft 0.1.1 / Aktuális kiadás
 
-**Publication documentation: 9 October 2026. Gameplay pair: 7 October 2026 wallfix.** Documentation/license corrections do not change the ASI/JAR gameplay bytes.
+Bedrock now has a separate, bounded sweep of each moving train body. A known, exact full-cube hit can stop the whole assembly before the next frame's predicted penetration, without waiting for unrelated unloaded sections. The effect is placed on the earliest contacted face. Ordinary block destruction still requires its complete collision proof.
 
-| Artifact | SHA-256 |
+Validation: **46 controlled native checks passed** and the full ScriptHookV SDK build succeeded. The tests compile the actual controller with controlled game/cache boundaries; no games were started. Retail braking latency and wreck appearance have not been retested.
+
+| Payload | SHA-256 |
 |---|---|
-| `gta/GtaCraft.asi` | `d6103f645a11ebec7f5d874403e10e566de1713b34c829bdf9b677495a2ebeed` |
+| `gta/GtaCraft.asi` | `265f6fff17da206642cb9c9051aac034a935fe6d5b1bf8a5edaf370327f48df7` |
 | `minecraft/skycraft-0.1.0-gtacraft.jar` | `3e94aa5da7ca839af4dfa4836e0e980d3cf33382cafd4151dd0201dee53c8d42` |
-| Authored collider DLC | `cfea8bb6c315379f058cbd810f7858272ff900f803f06116e8e638b2c6d8fb00` |
 
-Protocol **15**. Menu defaults to English with live Hungarian selection. Both EN/HU distributions contain the combined README, with English first and Hungarian below it. Their gameplay pair is identical.
-
-The README describes the new wall velocity write order, equipment handoff, gun block loot/hostile targeting, parked-car depth probing, Annihilator guns and five-tower End view budget, alongside inherited features. Full native/Java builds are historical evidence for these exact binaries; preparing this release does not rerun gameplay tests.
-
-The final wallfix lacks post-fix retail acceptance. Stable ground-police pursuit failed the most recent natural-terrain observation. The other-machine native Java crash and other regression risks remain open: [KNOWN_ISSUES.md](KNOWN_ISSUES.md).
-
-The nine-October update corrects stale documentation, component notices and public-distribution metadata. The collider inventory was reviewed as authored primitive geometry/white textures, with fixture-derived shape dimensions. Its inclusion does not clear game-IP policy concerns. The custom GPL loader binary is still absent; first-time source build/mount is required.
-
-Prior reports and screenshots in `docs/` and `screenshots/` are historical, scoped evidence. Their counts must not be added together as a universal release test total. The source snapshot comes from the exact wallfix package; original gameplay artifacts are preserved.
+Protocol 15. The Minecraft JAR, collider, configuration and dependencies are unchanged. Both EN/HU ZIPs contain identical gameplay files and bilingual documentation; the menu defaults to English with Hungarian selectable.
 
 ## Magyar
 
-**Dokumentáció: 2026. október 9. Játékbeli modpár: október 7-i wallfix.** Az ASI/JAR változatlan. Mindkét ZIP összetartozó 15-ös párt, angol alapmenüt és kapcsolható magyart tartalmaz; a README angol szövege alatt a teljes magyar változat olvasható.
+Az ismert bedrock külön vizsgálatot kapott: az elöl haladó vonatvég következő képkockára számolt érintése megállítja az egész szerelvényt, és az első felületre kerül a robbanáseffekt. Mellékes, betöltetlen területekre nem vár. A többi blokk rombolási ellenőrzése megmaradt.
 
-A legújabb faljavítás után nincs tényleges játékbeli visszamérés; a földi rendőrüldözés utolsó természetes terepi megfigyelése sikertelen volt. Másik gép natív Java-crashének oka és további regressziós kockázatok nyitottak. A mostani munka dokumentációt, licenceket és publikációs csomagot készít, nem új gameplay-javítást.
-
-Saját generált collider van a csomagban; külön loaderbináris nincs. Új gépen loaderfordítás és helyi DLC-mount kell. A licencek/asset-proveniencia ellenőrzése nem a crossover kiadói engedélye.
+**46 célzott kódellenőrzés sikeres, a teljes SDK-build elkészült.** Játékot nem indítottunk; a valódi játékbeli fékezési késést és roncs megjelenését még nem mértük újra. A Minecraft JAR és a 15-ös protokoll változatlan.

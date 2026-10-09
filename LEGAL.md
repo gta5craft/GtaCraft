@@ -10,15 +10,9 @@ Users need their own legitimately licensed GTA V Legacy and Minecraft: Java Edit
 
 The preview is made available without a paywall, paid mod access or sales of game content. These statements describe this distribution; they do not add restrictions to rights granted by component source-code licenses or override either game's terms.
 
-## Policy position and remaining uncertainty
+## Applicable terms
 
-Rockstar's [Mod Guidelines](https://www.rockstargames.com/community-resources/mod-guidelines), dated 10 September 2026, impose conditions on modding and retain enforcement rights. The [Story Mode policy page](https://support.rockstargames.com/articles/5NVOAYjcTomO8v6SX2k76k/pc-single-player-mods), updated 15 September 2026, links those guidelines and applicable terms. The guidelines do not constitute a project license or approval.
-
-Rockstar's [copyrighted-material policy](https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material) includes unauthorized mod/port promotion and combinations of unrelated intellectual property among potential takedown categories. **Our inference is that this GTA/Minecraft crossover has a material public-release and promotion risk.** Runtime use of separately purchased games and exclusion of copied assets do not establish that this combination is authorized. This project does not claim Rockstar compliance or a safe harbor.
-
-Minecraft's [EULA](https://www.minecraft.net/en-us/eula) distinguishes independently authored mods from redistribution of the game or substantial game content. Its [Usage Guidelines](https://www.minecraft.net/en-us/usage-guidelines) also govern names, branding and presentation. Both game's terms and applicable law remain separate from this repository's code licenses. Neither attribution nor a disclaimer creates missing permissions.
-
-Policies can change. There is no guarantee that rights holders will tolerate this project, that it will remain hosted, or that prompt removal would end every possible claim. The presence of other similar mods does not establish permission for this one. No permission from a rights holder has been obtained or represented by this documentation.
+The games remain subject to their own terms: Rockstar's [Mod Guidelines](https://www.rockstargames.com/community-resources/mod-guidelines), Minecraft's [EULA](https://www.minecraft.net/en-us/eula) and [Usage Guidelines](https://www.minecraft.net/en-us/usage-guidelines). This repository's licenses cover the mod code and do not grant rights to the original games or their trademarks.
 
 ## What is distributed
 
@@ -44,7 +38,7 @@ LLM development is disclosed in the README. It does not guarantee copyright elig
 
 The software is experimental and supplied as-is under the applicable component licenses. It may crash, lose state or behave unexpectedly. Back up saves and mod configuration, use a dedicated Minecraft instance and keep an untouched GTA installation. No guarantee of compatibility, performance, uninterrupted availability or fitness for any purpose is made. Any limitation applies only to the extent permitted by law and does not waive non-waivable statutory rights.
 
-For a rights concern, contact [admin@mannin.hu](mailto:admin@mannin.hu) with the material/URL and basis of the concern. The maintainer intends to review substantiated requests promptly and remove or correct affected material where appropriate. This is not an admission concerning every file or a promise that removal eliminates all potential liability. No rights-holder message has been sent on the maintainer's behalf as part of this preparation.
+For a rights concern, contact [admin@mannin.hu](mailto:admin@mannin.hu) with the material/URL and basis of the concern. The maintainer intends to review substantiated requests promptly and remove or correct affected material where appropriate.
 
 ## Magyar jogi összefoglaló
 
@@ -52,10 +46,10 @@ A projektgazda **mannin1337 / gta5craft**, közvetlen elérhetőség: **admin@ma
 
 Saját, jogszerűen licencelt GTA V Legacy és Minecraft Java szükséges, normál bejelentkezéssel. A cél a GTA Story Mode; Online, FiveM és más hivatalos többjátékos szolgáltatás nem cél. A csomag nem tartalmaz játékot, fiókot, aktiválást megkerülő eszközt, másolt `update.rpf`-et, játékassetet, tokent, kulcsot vagy mentést. A kiadásnak nincs fizetős hozzáférése vagy játéktartalom-értékesítése; a forráslicencek által adott jogokat ez nem írja át.
 
-A 2026 szeptemberi Rockstar-szabályok nem adnak automatikus modengedélyt. A jogvédett anyagokra vonatkozó szabály a nem engedélyezett mod/port promócióját és különböző IP-k kombinálását is érinti. **Ebből azt következtetjük, hogy a GTA/Minecraft crossover nyilvános kiadása és bemutatása érdemi kockázatot hordoz.** A külön megvett játék, assetek kihagyása és disclaimer nem bizonyít megfelelést, levétellel szembeni védelmet vagy jogosulti engedélyt. Más modok létezése sem engedély.
+A játékokra továbbra is a saját felhasználási feltételeik vonatkoznak. A projekt forráslicencei a mod kódját fedik le, az eredeti játékok és védjegyeik jogait nem adják át.
 
 A saját kód meglévő MIT licence mellett minden upstream licenc megmarad; a külön GPL-3.0 loader nem kerül MIT alá. A loader binárisa kimarad, teljes külön forrása és megjegyzései szerepelnek. A collider generált egyszerű geometriát/fehér textúrát használ, a méretek Minecraft collision-fixture-ökből származnak. CodeWalker és játékból származó kulcs nem kerül a csomagba. Ez provenance-megállapítás, nem a crossover kiadói jóváhagyása.
 
 A történeti képeken látható játékanyag és védjegyek jogai a jogosultaknál maradnak; a projekt MIT licence ezeket nem licenceli át. Az AI-fejlesztés nem biztosít eredetiséget, hibamentességet vagy jogi védelmet. A kísérleti mod garancia nélkül kerül átadásra, a jog által megengedett keretek között; nem kizárható törvényes jogokat nem von el. Mentsd a világokat/beállításokat.
 
-Jogosulti megkereséseket a projektgazda haladéktalanul áttekint, és indokolt esetben eltávolítja/javítja az érintett anyagot. Az eltávolítás nem garancia minden lehetséges igény megszűnésére. Ez a dokumentum nem jogi tanács vagy jogi megfelelőségi igazolás.
+Jogosulti megkereséseket a projektgazda haladéktalanul áttekint, és indokolt esetben eltávolítja/javítja az érintett anyagot. Ez a dokumentum nem jogi tanács.

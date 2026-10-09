@@ -17,7 +17,7 @@
   "payloads": {
     "asi": {
       "path": "gta/GtaCraft.asi",
-      "sha256": "d6103f645a11ebec7f5d874403e10e566de1713b34c829bdf9b677495a2ebeed"
+      "sha256": "265f6fff17da206642cb9c9051aac034a935fe6d5b1bf8a5edaf370327f48df7"
     },
     "jar": {
       "path": "minecraft/skycraft-0.1.0-gtacraft.jar",
@@ -36,5 +36,5 @@
       "sha256": "cfea8bb6c315379f058cbd810f7858272ff900f803f06116e8e638b2c6d8fb00"
     }
   },
-  "publication_status": "PUBLIC_PREVIEW"
+  "publication_status": "PUBLIC_RELEASE"
 }

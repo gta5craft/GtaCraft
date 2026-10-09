@@ -108,6 +108,10 @@ This is an unofficial, free project. Publisher approval is not claimed, and a di
 
 These gameplay images illustrate the project; they are not acceptance tests for every current feature. Game imagery remains owned by its original rights holders. [Image manifest](screenshots/selection-manifest.json).
 
+![Driving in Minecraft](screenshots/08-driving-in-minecraft.png)
+
+*Driving in Minecraft*
+
 ![Minecraft blocks and HUD in a GTA interior](screenshots/01-blocks-in-los-santos.png)
 
 ![Developer menu over Los Santos](screenshots/02-developer-menu.png)

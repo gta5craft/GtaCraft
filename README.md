@@ -6,6 +6,10 @@
 
 ![Minecraft portal, TNT and fire in Los Santos](screenshots/03-gate-in-los-santos.jpg)
 
+![The End fight over the city of Los Santos](screenshots/07-end-fight-over-los-santos.png)
+
+*The End fight over the city of Los Santos*
+
 ## English
 
 **GtaCraft brings GTA V and Minecraft: Java Edition together in one experimental single-player mod.** Build and mine in Los Santos, or take Franklin, GTA vehicles and weapons into a natural Minecraft Overworld. Both games run at the same time: Minecraft supplies its world and simulation, while GTA brings its characters, vehicles and action.

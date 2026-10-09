@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "status": "historical_illustrations",
-  "selection_count": 6,
+  "selection_count": 7,
   "image_editing_performed": false,
   "note": "Historical project screenshots, not acceptance evidence for the current pair. Game imagery retains its original owners' rights.",
   "images": [
@@ -69,6 +69,17 @@
       "scope": "Historical phase1 fictional Contacts phone frame",
       "caption_en": "Native Contacts phone above Minecraft terrain",
       "caption_hu": "Natív Contacts telefon Minecraft-terep fölött",
+      "current_build_acceptance": false
+    },
+    {
+      "destination": "screenshots/07-end-fight-over-los-santos.png",
+      "sha256": "e34677e9b50f3a0c1229a33df373e4bab75bff20a94c14325ed3be23345e3d26",
+      "bytes": 1473036,
+      "width": 1914,
+      "height": 1052,
+      "scope": "User-supplied gameplay screenshot on 9 October 2026; exact build not independently established",
+      "caption_en": "The End fight over the city of Los Santos",
+      "caption_hu": "End-harc Los Santos városa fölött",
       "current_build_acceptance": false
     }
   ]

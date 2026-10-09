@@ -1,0 +1,1574 @@
+{
+  "codewalkerCommit": "485d56bec00262ed7fa472261cce7bbc6202b96e",
+  "gameTarget": "GTA V Legacy / Gen8",
+  "nativePhysicsValidated": false,
+  "physicsMetadataVersion": 2,
+  "archetypeMetadataVersion": 4,
+  "archetypeFlags": 131072,
+  "archetypeClassification": "Dynamic archetype; native collider instances are made non-dynamic and frozen after creation",
+  "physicsDictionary": "each embedded drawable\u0027s own JenkHash; no separate YBN resource",
+  "massProperties": "unit-density box inertia; volume-weighted parallel-axis composite inertia; CW SphereCenter=center of gravity",
+  "model": "gtacraft_collision_cube",
+  "cubeLocalMin": [
+    -0.5,
+    -0.5,
+    0
+  ],
+  "cubeLocalMax": [
+    0.5,
+    0.5,
+    1
+  ],
+  "implicitFullCubeSignature": "3e0df38fa0a84f79",
+  "shapeModels": {
+    "013e0b84c1e55677": {
+      "model": "gtacraft_shape_013e0b84c1e55677",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "058fea8af8637726": {
+      "model": "gtacraft_shape_058fea8af8637726",
+      "mcBoxes": [
+        [
+          0,
+          0.5,
+          0,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0,
+          0,
+          1,
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "0fd225167d798096": {
+      "model": "gtacraft_shape_0fd225167d798096",
+      "mcBoxes": [
+        [
+          0.4375,
+          0,
+          0,
+          0.5625,
+          1,
+          1
+        ],
+        [
+          0.5625,
+          0,
+          0.4375,
+          1,
+          1,
+          0.5625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "114f25ceaeaeee77": {
+      "model": "gtacraft_shape_114f25ceaeaeee77",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          0.5,
+          1,
+          0.5
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "117e7d251dc639c6": {
+      "model": "gtacraft_shape_117e7d251dc639c6",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.375,
+          0.625,
+          1.5,
+          0.625
+        ],
+        [
+          0.375,
+          0,
+          0.625,
+          0.625,
+          1.5,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "1181a240a1e99cc9": {
+      "model": "gtacraft_shape_1181a240a1e99cc9",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.9375,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "1719c197da8e5ca6": {
+      "model": "gtacraft_shape_1719c197da8e5ca6",
+      "mcBoxes": [
+        [
+          0,
+          0.5,
+          0,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0,
+          0.5,
+          1,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "182b319bddc0d1c7": {
+      "model": "gtacraft_shape_182b319bddc0d1c7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "1ceffba5794afea6": {
+      "model": "gtacraft_shape_1ceffba5794afea6",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          0.1875,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "2281198a889a2d77": {
+      "model": "gtacraft_shape_2281198a889a2d77",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "23f641540ad5ff04": {
+      "model": "gtacraft_shape_23f641540ad5ff04",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.375,
+          1,
+          1.5,
+          0.625
+        ],
+        [
+          0.375,
+          0,
+          0,
+          0.625,
+          1.5,
+          0.375
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "24ca7843a1db41a7": {
+      "model": "gtacraft_shape_24ca7843a1db41a7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0,
+          0,
+          1,
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "2a3eff244de4c339": {
+      "model": "gtacraft_shape_2a3eff244de4c339",
+      "mcBoxes": [
+        [
+          0.375,
+          0,
+          0.375,
+          0.625,
+          1.5,
+          0.625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "2b84ff244ef985d9": {
+      "model": "gtacraft_shape_2b84ff244ef985d9",
+      "mcBoxes": [
+        [
+          0.375,
+          0,
+          0.375,
+          0.625,
+          1.5,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "2c488b4ac0a0d777": {
+      "model": "gtacraft_shape_2c488b4ac0a0d777",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.4375,
+          0.5625,
+          1,
+          0.5625
+        ],
+        [
+          0.4375,
+          0,
+          0,
+          0.5625,
+          1,
+          0.4375
+        ],
+        [
+          0.4375,
+          0,
+          0.5625,
+          0.5625,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "321acc4c00dfc0c7": {
+      "model": "gtacraft_shape_321acc4c00dfc0c7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0.5
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "368c0a37ba70c947": {
+      "model": "gtacraft_shape_368c0a37ba70c947",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "38b465e1d33f5227": {
+      "model": "gtacraft_shape_38b465e1d33f5227",
+      "mcBoxes": [
+        [
+          0,
+          0.5,
+          0,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "3d5506d8d2544a14": {
+      "model": "gtacraft_shape_3d5506d8d2544a14",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.8125,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "3e60c252a0ae8476": {
+      "model": "gtacraft_shape_3e60c252a0ae8476",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.5,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0,
+          0.5,
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          0,
+          0,
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "3ee7728fa1611806": {
+      "model": "gtacraft_shape_3ee7728fa1611806",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0.1875
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "4abcb4ba1df78016": {
+      "model": "gtacraft_shape_4abcb4ba1df78016",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.25,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "4b2b1e03ae818819": {
+      "model": "gtacraft_shape_4b2b1e03ae818819",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.625,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "508ceb0344464174": {
+      "model": "gtacraft_shape_508ceb0344464174",
+      "mcBoxes": [
+        [
+          0.8125,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "56ab2377d17a2847": {
+      "model": "gtacraft_shape_56ab2377d17a2847",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "585e2377d2ebbcc7": {
+      "model": "gtacraft_shape_585e2377d2ebbcc7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "5ad175e49e29d9b3": {
+      "model": "gtacraft_shape_5ad175e49e29d9b3",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.0625,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "6354fddba3fbce06": {
+      "model": "gtacraft_shape_6354fddba3fbce06",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.4375,
+          0.5625,
+          1,
+          0.5625
+        ],
+        [
+          0.4375,
+          0,
+          0.5625,
+          0.5625,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "6471fab77708c1c7": {
+      "model": "gtacraft_shape_6471fab77708c1c7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.5,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "6d5e2abf280fed59": {
+      "model": "gtacraft_shape_6d5e2abf280fed59",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.875,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "7055c1759a690e56": {
+      "model": "gtacraft_shape_7055c1759a690e56",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.375,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "7b2bc581d9f11dc4": {
+      "model": "gtacraft_shape_7b2bc581d9f11dc4",
+      "mcBoxes": [
+        [
+          0,
+          0.8125,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "7e2362e48460ba76": {
+      "model": "gtacraft_shape_7e2362e48460ba76",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "82750ec3b04ee359": {
+      "model": "gtacraft_shape_82750ec3b04ee359",
+      "mcBoxes": [
+        [
+          0.4375,
+          0,
+          0.4375,
+          0.5625,
+          1,
+          0.5625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "82fde1cfccfebd77": {
+      "model": "gtacraft_shape_82fde1cfccfebd77",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.4375,
+          1,
+          1,
+          0.5625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "83ac39f1675a26a4": {
+      "model": "gtacraft_shape_83ac39f1675a26a4",
+      "mcBoxes": [
+        [
+          0.4375,
+          0,
+          0.4375,
+          0.5625,
+          1,
+          1
+        ],
+        [
+          0.5625,
+          0,
+          0.4375,
+          1,
+          1,
+          0.5625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "83f20ec3b192e869": {
+      "model": "gtacraft_shape_83f20ec3b192e869",
+      "mcBoxes": [
+        [
+          0.4375,
+          0,
+          0.4375,
+          0.5625,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "889803d375859f54": {
+      "model": "gtacraft_shape_889803d375859f54",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.4375,
+          0.5625,
+          1,
+          0.5625
+        ],
+        [
+          0.4375,
+          0,
+          0,
+          0.5625,
+          1,
+          0.4375
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "8ca60d069c6e94f9": {
+      "model": "gtacraft_shape_8ca60d069c6e94f9",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "8e192eb5733957f4": {
+      "model": "gtacraft_shape_8e192eb5733957f4",
+      "mcBoxes": [
+        [
+          0.375,
+          0,
+          0.375,
+          0.625,
+          1.5,
+          1
+        ],
+        [
+          0.625,
+          0,
+          0.375,
+          1,
+          1.5,
+          0.625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "929a56a943bd6247": {
+      "model": "gtacraft_shape_929a56a943bd6247",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.4375,
+          0.5625,
+          1,
+          0.5625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "945a58e886c8ba64": {
+      "model": "gtacraft_shape_945a58e886c8ba64",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.4375,
+          1,
+          1,
+          0.5625
+        ],
+        [
+          0.4375,
+          0,
+          0,
+          0.5625,
+          1,
+          0.4375
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "9789e257abff2b67": {
+      "model": "gtacraft_shape_9789e257abff2b67",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.375,
+          1,
+          1.5,
+          0.625
+        ],
+        [
+          0.375,
+          0,
+          0,
+          0.625,
+          1.5,
+          0.375
+        ],
+        [
+          0.375,
+          0,
+          0.625,
+          0.625,
+          1.5,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "9954ce3119bdc596": {
+      "model": "gtacraft_shape_9954ce3119bdc596",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.125,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "99f9236564c72cf7": {
+      "model": "gtacraft_shape_99f9236564c72cf7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "9db29d823d511087": {
+      "model": "gtacraft_shape_9db29d823d511087",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.375,
+          0.625,
+          1.5,
+          0.625
+        ],
+        [
+          0.375,
+          0,
+          0,
+          0.625,
+          1.5,
+          0.375
+        ],
+        [
+          0.375,
+          0,
+          0.625,
+          0.625,
+          1.5,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "9f85f000e6e6ace7": {
+      "model": "gtacraft_shape_9f85f000e6e6ace7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.375,
+          1,
+          1.5,
+          0.625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "aed919c215fcfa39": {
+      "model": "gtacraft_shape_aed919c215fcfa39",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.75,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "b1741847b522e146": {
+      "model": "gtacraft_shape_b1741847b522e146",
+      "mcBoxes": [
+        [
+          0.375,
+          0,
+          0,
+          0.625,
+          1.5,
+          1
+        ],
+        [
+          0.625,
+          0,
+          0.375,
+          1,
+          1.5,
+          0.625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "b194ddeb1023aa76": {
+      "model": "gtacraft_shape_b194ddeb1023aa76",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "b52f2ff5cb4df8a6": {
+      "model": "gtacraft_shape_b52f2ff5cb4df8a6",
+      "mcBoxes": [
+        [
+          0.375,
+          0,
+          0,
+          0.625,
+          1.5,
+          0.625
+        ],
+        [
+          0.625,
+          0,
+          0.375,
+          1,
+          1.5,
+          0.625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "beeddaec962f53d6": {
+      "model": "gtacraft_shape_beeddaec962f53d6",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.1875,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "c01585f1e65ee3c7": {
+      "model": "gtacraft_shape_c01585f1e65ee3c7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.4375,
+          1,
+          1,
+          0.5625
+        ],
+        [
+          0.4375,
+          0,
+          0,
+          0.5625,
+          1,
+          0.4375
+        ],
+        [
+          0.4375,
+          0,
+          0.5625,
+          0.5625,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "c0a92df71c31a016": {
+      "model": "gtacraft_shape_c0a92df71c31a016",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.4375,
+          1,
+          1,
+          0.5625
+        ],
+        [
+          0.4375,
+          0,
+          0.5625,
+          0.5625,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "c408a2f7db7407c6": {
+      "model": "gtacraft_shape_c408a2f7db7407c6",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "c420377a431d9e47": {
+      "model": "gtacraft_shape_c420377a431d9e47",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.375,
+          0.625,
+          1.5,
+          0.625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "c8a0293b764c4cf6": {
+      "model": "gtacraft_shape_c8a0293b764c4cf6",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0,
+          0.5,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "ca53293b77bde176": {
+      "model": "gtacraft_shape_ca53293b77bde176",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0,
+          0.5,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "cafc13c465383719": {
+      "model": "gtacraft_shape_cafc13c465383719",
+      "mcBoxes": [
+        [
+          0.375,
+          0,
+          0.375,
+          1,
+          1.5,
+          0.625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "dfcd13ae1535ffe4": {
+      "model": "gtacraft_shape_dfcd13ae1535ffe4",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.375,
+          0.625,
+          1.5,
+          0.625
+        ],
+        [
+          0.375,
+          0,
+          0,
+          0.625,
+          1.5,
+          0.375
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "e7852b3c76b29266": {
+      "model": "gtacraft_shape_e7852b3c76b29266",
+      "mcBoxes": [
+        [
+          0.4375,
+          0,
+          0,
+          0.5625,
+          1,
+          0.5625
+        ],
+        [
+          0.5625,
+          0,
+          0.4375,
+          1,
+          1,
+          0.5625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "ead67915b71ffb17": {
+      "model": "gtacraft_shape_ead67915b71ffb17",
+      "mcBoxes": [
+        [
+          0.4375,
+          0,
+          0,
+          0.5625,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "ec7e12434522c609": {
+      "model": "gtacraft_shape_ec7e12434522c609",
+      "mcBoxes": [
+        [
+          0.4375,
+          0,
+          0.4375,
+          1,
+          1,
+          0.5625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "ecbff915b8bff887": {
+      "model": "gtacraft_shape_ecbff915b8bff887",
+      "mcBoxes": [
+        [
+          0.4375,
+          0,
+          0,
+          0.5625,
+          1,
+          0.5625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "f1dddfd095ac48f4": {
+      "model": "gtacraft_shape_f1dddfd095ac48f4",
+      "mcBoxes": [
+        [
+          0,
+          0.5,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "f34e1470649841c6": {
+      "model": "gtacraft_shape_f34e1470649841c6",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.5,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "f547d25a354a11a7": {
+      "model": "gtacraft_shape_f547d25a354a11a7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0,
+          0.5,
+          1,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          0,
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "f68f1748e80c4507": {
+      "model": "gtacraft_shape_f68f1748e80c4507",
+      "mcBoxes": [
+        [
+          0.375,
+          0,
+          0,
+          0.625,
+          1.5,
+          0.625
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "f8af1748e9daab67": {
+      "model": "gtacraft_shape_f8af1748e9daab67",
+      "mcBoxes": [
+        [
+          0.375,
+          0,
+          0,
+          0.625,
+          1.5,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "fb3d5841cbdcc3e6": {
+      "model": "gtacraft_shape_fb3d5841cbdcc3e6",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0.375,
+          1,
+          1.5,
+          0.625
+        ],
+        [
+          0.375,
+          0,
+          0.625,
+          0.625,
+          1.5,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "fdb9e64b74b50647": {
+      "model": "gtacraft_shape_fdb9e64b74b50647",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          0.5,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    },
+    "ff5ffa56a528bac7": {
+      "model": "gtacraft_shape_ff5ffa56a528bac7",
+      "mcBoxes": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0.5
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          0.5,
+          1,
+          1
+        ],
+        [
+          0.5,
+          0,
+          0.5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "origin": "block-bottom; do not offset by partial minZ"
+    }
+  },
+  "files": {
+    "gtacraft_collision_cube.ydr": "7F416739A022748CBD7CA716395C5A5F2AD123453AB3FFD077163B1B86FDC5FF",
+    "gtacraft_shape_013e0b84c1e55677.ydr": "DC0AFE75D052865063108DF1DDB899DCDFA8EC99A21551766ECF96E07E82F62E",
+    "gtacraft_shape_058fea8af8637726.ydr": "39F849FD43F8DD9D592787B6C7D8C857D84483B45B6C0D3812CA990DA7800475",
+    "gtacraft_shape_0fd225167d798096.ydr": "538FA12619DD07CD570B90F7A4E8839333C68BEC060A13A6E9865283D0EBFD98",
+    "gtacraft_shape_114f25ceaeaeee77.ydr": "77D7057F8A2BFED67245211519B64F9AC368C705AEB8C80B811D27F721A1426F",
+    "gtacraft_shape_117e7d251dc639c6.ydr": "86F3FDD8929614ECB5A98E1783AB89EAC992E92BA4C9345BE40BBD2C4CA0A28C",
+    "gtacraft_shape_1181a240a1e99cc9.ydr": "2190FB63FCD5B158CEF70C62FC65F81BA975A794113CB31A79B5C4DF83AEC8B4",
+    "gtacraft_shape_1719c197da8e5ca6.ydr": "D2FB75C479CAD7F281900DFF2294004A82585DDBC6AF3B4FB421B80CF5AA0316",
+    "gtacraft_shape_182b319bddc0d1c7.ydr": "5D1FB5A7E8FEC287400714E06114D7E976C4903521DB3B9970B0A9526A8AF3CD",
+    "gtacraft_shape_1ceffba5794afea6.ydr": "F073D7B0B3CF78C6D483EA642647B8D5DA72016F9F360AB5B1ECFE20FA0DF026",
+    "gtacraft_shape_2281198a889a2d77.ydr": "E748EAD7F995582C70382C7B444209197F11FFEBB2AE8FFE075349FBC7695F20",
+    "gtacraft_shape_23f641540ad5ff04.ydr": "A0CEDD2EF62569C2352B7CAB82566760175822B19B719EF6EFA55AC03804E955",
+    "gtacraft_shape_24ca7843a1db41a7.ydr": "8C1655C7578DC8FC5D8C548282C789F30D5E9350C90A40201317AE66822FC8C5",
+    "gtacraft_shape_2a3eff244de4c339.ydr": "C32097B1E6F44AF48F6337D4A5D1E470C5757CF5870F114A29F2EC4D28F7A252",
+    "gtacraft_shape_2b84ff244ef985d9.ydr": "6FE0657EDE6E3F1A3A99FC2CEC3C8FBA3356A7D918894F91B88336F5BB7EAB0A",
+    "gtacraft_shape_2c488b4ac0a0d777.ydr": "F0C2B58F3A6A8B4EB0C666A682CE83EF9BA09CF95538D811360EF4F9C4541DE1",
+    "gtacraft_shape_321acc4c00dfc0c7.ydr": "770FD7F846F3D13A49F17F79E49905C0086426D4725510BC3D07F014D56EE53B",
+    "gtacraft_shape_368c0a37ba70c947.ydr": "7494FC48D192FE489338929AF473E36B138ACB19D292E11FB582AD85406ED141",
+    "gtacraft_shape_38b465e1d33f5227.ydr": "24CD4935F2DB6D02E5D6489A275C99C928BF37FB5A334DE55B0856D3842812D7",
+    "gtacraft_shape_3d5506d8d2544a14.ydr": "DA59ABB178E266AE52CF1C40A92DF2155E3585B6F36357FFE41E10FE1194A70B",
+    "gtacraft_shape_3e60c252a0ae8476.ydr": "7146841F057C8194ECB3DD09DC51824FAB2197D9F93770F7F405D62B2A3C699E",
+    "gtacraft_shape_3ee7728fa1611806.ydr": "3BC186E4ADE22597F91278BBC94FD17898D5F9969EC7483ED713053CA49368E2",
+    "gtacraft_shape_4abcb4ba1df78016.ydr": "6B65EF6C06BE0B8373A382AFF70C1B7688806A0D0B585ADD0E7A1E83CD461D5B",
+    "gtacraft_shape_4b2b1e03ae818819.ydr": "01469A42DFEFA7C0F630D71F2FD8BD2E247C6A955038EE69F1DE4DBB274B961B",
+    "gtacraft_shape_508ceb0344464174.ydr": "ABF2C592DB158EBAF9D287EE5D541D03C95FECFDF286A4859ED1093A49A9E46D",
+    "gtacraft_shape_56ab2377d17a2847.ydr": "5DA825303CD5771FA591D0ED52A686F75968543D29D296F1E5CBC88F3A17790E",
+    "gtacraft_shape_585e2377d2ebbcc7.ydr": "D62F81CDA7656677EB58C09851B5295D2E0B6CB62C2676AEAC97C83A0E4B5222",
+    "gtacraft_shape_5ad175e49e29d9b3.ydr": "B231B3B4174C3D40CF6B1F233665ECB81D127E369F975E93CFB24B067EF87504",
+    "gtacraft_shape_6354fddba3fbce06.ydr": "AE3680E76D9F29C3F960548BA596B6BDE74E1F55A4D0FB7B9311ACFBD99DE46D",
+    "gtacraft_shape_6471fab77708c1c7.ydr": "30D2184BAAD9B52B63BCB8120851E5AA32125177BD1B1211386B3BF373BA8FDB",
+    "gtacraft_shape_6d5e2abf280fed59.ydr": "83AC6D4A38054E104A253788FC534E659E080CA6676F0553D1FF4104F579D358",
+    "gtacraft_shape_7055c1759a690e56.ydr": "C3929BC69ECE5DE0B3EEC7327724336022252366306A4246F123D8D44D40A146",
+    "gtacraft_shape_7b2bc581d9f11dc4.ydr": "830C102BE921C782793156498FDCB8E122FEB8A08D6628CA7359AA76BDD712F9",
+    "gtacraft_shape_7e2362e48460ba76.ydr": "87B0B733FF0A9C971F35F61AFBD80EF6597FB21016B4BC72714DC8D462EADD0D",
+    "gtacraft_shape_82750ec3b04ee359.ydr": "9AEA1304D330E8167CC042EBBD52F3010C8EDF41DF02F102A53B175FF931E3A5",
+    "gtacraft_shape_82fde1cfccfebd77.ydr": "1575B9DA53A3F764DB64DE468249D7A3CD58FF08D7F0D7C103D0AE41981D84E4",
+    "gtacraft_shape_83ac39f1675a26a4.ydr": "2548384525741DF9DF0C5C4881036DEC8D4D0342B84BE6A888DEBB80C1223184",
+    "gtacraft_shape_83f20ec3b192e869.ydr": "62F818D0B658FCBEF0B86394C46A49AB10A45D6585BD9D45D191D46E6ECE2933",
+    "gtacraft_shape_889803d375859f54.ydr": "FA89F753E971FB221E283118E154003CA16DF40C9FE6DE3CAB4BFE8E123CF2B7",
+    "gtacraft_shape_8ca60d069c6e94f9.ydr": "1C5C7F376F7BED07BF9668D8755B65EE993415162F3E10A5B9BCF4B74F7C6AD3",
+    "gtacraft_shape_8e192eb5733957f4.ydr": "9F6E9E50A6CF023004CC766CBB6EE3C826EBFF13D7127797AF98E12349BDE878",
+    "gtacraft_shape_929a56a943bd6247.ydr": "CD3EA5CACED803246E872BF033E5D17F9CCB661F6D7D103DE10D2C6DF8C73762",
+    "gtacraft_shape_945a58e886c8ba64.ydr": "64BCE82230A874C39A70F59382D59DD7CF816327D40A1A2345BC3B00265E4BAF",
+    "gtacraft_shape_9789e257abff2b67.ydr": "51F7F11354D7159430AC4E21AD3F59F07CDC43F0F6A22A2CFB524F8B7128F894",
+    "gtacraft_shape_9954ce3119bdc596.ydr": "3D0A7541E5BB2A0985C70FB6251C36F13F37FFFCDD136295CE766567146A47E3",
+    "gtacraft_shape_99f9236564c72cf7.ydr": "AE8BCDB78B16E7D6694382F0D65E9F03B0E31FB85C863EB57B3C9A58B8ECE91B",
+    "gtacraft_shape_9db29d823d511087.ydr": "953A51CD5065B1B5DF691C12E4B9C37F630B283A40FB7B83190E8287CB864D17",
+    "gtacraft_shape_9f85f000e6e6ace7.ydr": "700C124DDB94535B6C76A8A958F370F32E72B8097DB9CD891F10769D99230B36",
+    "gtacraft_shape_aed919c215fcfa39.ydr": "7F919EA726FB4ED42B84AB359983B9E7B79CD0109E8EBF1460709BA9C0919001",
+    "gtacraft_shape_b1741847b522e146.ydr": "D03404DC74A9FABE0EC4616EB1830FADFF4954C099A03634651C5BB2161D4A7C",
+    "gtacraft_shape_b194ddeb1023aa76.ydr": "E6AD69D59D8DBD089D3567C9C3120AABB9F985297690DF35F83D11C51161197A",
+    "gtacraft_shape_b52f2ff5cb4df8a6.ydr": "C903A736127A05DFEA042F93DF240FFEC5AD1C6380BCF5E8890449E50C587EA7",
+    "gtacraft_shape_beeddaec962f53d6.ydr": "6F0EB1C0DC32BEFE4ACE6805AFE2BFC88679DE279512716EBC1F54186B1CF4CE",
+    "gtacraft_shape_c01585f1e65ee3c7.ydr": "808542EB9E3592472984FA010EFE1435790FD27A06A3B4339EBDC0991FCF7DC0",
+    "gtacraft_shape_c0a92df71c31a016.ydr": "394DC2828FEB31B78781152AD6EE230892BF96F6F138CC73ECD1F628E5F4BBCA",
+    "gtacraft_shape_c408a2f7db7407c6.ydr": "A88BAB5FA6FAE80583AF24ED1B92370A8039039844127540C2125AF2543522CF",
+    "gtacraft_shape_c420377a431d9e47.ydr": "C9DDCBFB11FC687C0ADF2D7153BFDA72D96EFAA799565CA078BFCF03680C05A8",
+    "gtacraft_shape_c8a0293b764c4cf6.ydr": "ED4099BBBCC16E346ACD9301ABA8AB45F250DDA698184A23B3E42ABA819624D8",
+    "gtacraft_shape_ca53293b77bde176.ydr": "AA3578090B5DCC727AB032B7B388323ABF83B5D44A421119C8E68899720907FC",
+    "gtacraft_shape_cafc13c465383719.ydr": "D8AA872A457BBA6244F514C4E3AF601A133DED6DA5153D14CA43800D4AE0E696",
+    "gtacraft_shape_dfcd13ae1535ffe4.ydr": "CF98625CE922E2F0600AE9D305A7C2B4C5B52886D8C60B4B300AC418EB970CC5",
+    "gtacraft_shape_e7852b3c76b29266.ydr": "99E31BB0F0BCDBBD8262784651CE0E71854AF4275AF25EB6CEDF856F7EEB0688",
+    "gtacraft_shape_ead67915b71ffb17.ydr": "5A2E430A6330B33DAABFE8E7989038A5E471A4A29201682130282D5F5F9F85F5",
+    "gtacraft_shape_ec7e12434522c609.ydr": "0C86FA6A2D67B2584686B4F11F42BAE6C20C1B77EB0F9BD2C3CE62C74F563276",
+    "gtacraft_shape_ecbff915b8bff887.ydr": "C9FBAC81196212C6162C804EC812775F9858E326D6C941ED5783A857313F616C",
+    "gtacraft_shape_f1dddfd095ac48f4.ydr": "14A571FCAFB014FACB6FED5A520F24AFC1EE5DA9DED5D7739AA78A90C12D3FFC",
+    "gtacraft_shape_f34e1470649841c6.ydr": "F5C47162F6F91F3D91F01406CCB234670C4AFE24E247EB2B2D893EE5F3F643B5",
+    "gtacraft_shape_f547d25a354a11a7.ydr": "9D9D6D14601EFD8F6464C7865F934870212F7E985C2D4F6593DB76F78280BC93",
+    "gtacraft_shape_f68f1748e80c4507.ydr": "6DFA50CBA42BFBC57DFD5AFE26CF7206827A63F121378B14D4C13BC3286CE7B8",
+    "gtacraft_shape_f8af1748e9daab67.ydr": "3DEF3C2A8B6C8F71259C4D6212CBAB70A37D1465E757B33B38AF6213EDF38A09",
+    "gtacraft_shape_fb3d5841cbdcc3e6.ydr": "D3E6E6BF3BD86BB662674F76A11B9440682DD03301E3BACC061AF272F9023711",
+    "gtacraft_shape_fdb9e64b74b50647.ydr": "F0BC08A4E140ACAC4E24DE995DE5DBCC7E6CF0E9C35C6DFDB2538EB61E566798",
+    "gtacraft_shape_ff5ffa56a528bac7.ydr": "8C63AA76F86EE4098921E8C80062527CA420444F4A9DF5F39E10973F3013607A",
+    "gtacraft_colliders.ytyp": "C52E95B8D6D2488686D8283AA50AF4DB14627215860742A3BF6C98B5E7F8F8EE"
+  },
+  "dlcSha256": "CFEA8BB6C315379F058CBD810F7858272FF900F803F06116E8E638B2C6D8FB00"
+}

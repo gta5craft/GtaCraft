@@ -28,14 +28,14 @@
       "current_build_acceptance": false
     },
     {
-      "destination": "screenshots/03-gate-in-los-santos.png",
-      "sha256": "e149b581102cc19cff3058ca44bbe54287ede2a5f626dd5cc31d03532da2114b",
-      "bytes": 640178,
-      "width": 960,
-      "height": 540,
-      "scope": "Historical repository image; exact build not established",
-      "caption_en": "Cobblestone gate in Los Santos",
-      "caption_hu": "Cobblestone-kapu Los Santosban",
+      "destination": "screenshots/03-gate-in-los-santos.jpg",
+      "sha256": "21efe336e7681f4ce19ef6eaba7c43e9d49d0e7e6e4703220bf6225f1e0cd60a",
+      "bytes": 332770,
+      "width": 1914,
+      "height": 1052,
+      "scope": "User-supplied gameplay screenshot on 9 October 2026; exact build not independently established",
+      "caption_en": "Obsidian portal, TNT, fire and GTA traffic in Los Santos",
+      "caption_hu": "Obszidiánportál, TNT, tűz és GTA-forgalom Los Santosban",
       "current_build_acceptance": false
     },
     {

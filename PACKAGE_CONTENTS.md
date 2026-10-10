@@ -1,6 +1,6 @@
 # Package contents / Csomagtartalom
 
-The EN/HU preview archives carry the **same 0.1.1 mod pair**, including the bedrock train-contact fix. The full English README is followed by its full Hungarian version. Both menus default to English and allow live Hungarian selection.
+The EN/HU preview archives carry the **same 0.1.2 mod pair**, including arcade destruction, mouse carjump, step assistance and the earlier bedrock train-contact fix. The full English README is followed by its full Hungarian version. Both menus default to English and allow live Hungarian selection.
 
 Included:
 
@@ -19,6 +19,6 @@ The repository documentation and downloadable preview/source archive describe th
 
 ## Magyar
 
-Mindkét ZIP azonos 0.1.1-es modpárt tartalmaz a bedrock–vonat javítással és angol–magyar dokumentációval. Telepítő/indító, mod-only Prism-import, saját collider, teljes kapcsolódó forrás és külön GPL-loaderforrás, licencek, képek és lenyomatok szerepelnek benne.
+Mindkét ZIP azonos 0.1.2-es modpárt tartalmaz az autós rombolással, egérugrással, fellépési segéddel, korábbi bedrock–vonat javítással és angol–magyar dokumentációval. Telepítő/indító, mod-only Prism-import, saját collider, teljes kapcsolódó forrás és külön GPL-loaderforrás, licencek, képek és lenyomatok szerepelnek benne.
 
 Játék, `update.rpf`, másolt játékasset, fiók, mentés, token/kulcs, privát log, ScriptHookV, ASI-loader DLL, egyedi loaderbináris, CodeWalker, Prism, Java és runtime nincs mellékelve. Első telepítéshez külön loaderfordítás és saját mods/DLC-beállítás kell. Archivált forrás esetén a buildhez előbb csomagold ki.

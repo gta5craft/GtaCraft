@@ -1,9 +1,10 @@
 # Known issues / Ismert hibák
 
-Status: 0.1.1. The train fix passed 46 controlled native checks and a full SDK build. These are code checks, not a new retail gameplay acceptance result. Other previously reported limits remain below.
+Status: 0.1.2. The author reports successful destructive car driving in the installed build. This is a limited gameplay observation; other reported limits remain below.
 
 | Area | Current evidence and practical limit |
 |---|---|
+| Arcade movement | Dense terrain, delayed block acknowledgements or missing collision data can still stop a car. Bedrock, protected and container blocks stay solid. Automatic car ramps and Franklin step-up need broader gameplay coverage. |
 | Overworld police | The last natural-terrain observation saw an owned foot officer disappear after two seconds; no patrol car appeared within 29 seconds. Stable ground pursuit is not accepted. Helicopter activity is not a substitute for this test. |
 | Driving along walls | Earlier real drives reproduced stops along a long wall. The final position-before-velocity fix passed 9 targeted checks, with 39 continuous-wall and 2 separating-contact checks, but was not retested in the running game. These counts do not prove complete driving correctness. |
 | Minecraft native crash | A MultiMC launch reached bridge connection and Overworld opening, then exited with `0xc0000005`. The faulting module/root cause is unknown; the JVM fatal-error report is still needed. Startup Perflib warnings alone do not establish its cause. |
@@ -18,6 +19,8 @@ Status: 0.1.1. The train fix passed 46 controlled native checks and a full SDK b
 | Long sessions | A successful build, fixture or screenshot does not establish hours of crash-free play, complete story compatibility or universal terrain navigation. |
 
 ## Magyar
+
+- A készítő az új autós rombolást kipróbálta, működőnek jelezte. Ez korlátozott megfigyelés, nem teljes hibamentességi igazolás. Tömör fal/késő blokkfrissítés még megállíthatja az autót; az autós rámpa és gyalogos fellépés további játékbeli próbát igényel.
 
 - Az Overworldben a rendőr eltűnését megfigyeltük, földi járőrautó nem érkezett a 29 másodperces próbában. A stabil földi üldözés nincs igazolva.
 - A hosszú falnál megállást tényleges játékpróba reprodukálta. Az utolsó sebességírási javítás célzott ellenőrzései sikeresek, de új játékbeli visszamérés nincs.

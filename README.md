@@ -22,8 +22,9 @@ You need your own original copies of both games. **NOT AN OFFICIAL MINECRAFT PRO
 |---|---|
 | Two connected worlds | Play in a natural Minecraft Overworld or a separate Minecraft mirror of the GTA world. Switch with F9 or supported portals. |
 | Franklin in Minecraft | Explore on foot with native GTA movement, weapons and vehicles. Minecraft presentation/control is also available. |
-| Driving and drifting | Drive across nearby Minecraft terrain with streamed block collision. Strong vehicle impacts can break permitted blocks. |
-| Car jump | Use the horn, **E / controller L3** by default, to jump an eligible car in the native Overworld—even in reverse or airborne. Default cooldown: 1.5 seconds. |
+| Driving and drifting | Drive across nearby Minecraft terrain with streamed block collision. Default-on bulldozer mode clears breakable blocks ahead of your car, forward or in reverse. Dirt/sand offer less resistance than wood/stone; bedrock and protected/container blocks remain solid. |
+| Car jump | Use **left click** as the driver, or the horn (**E / controller L3** by default), to jump an eligible car in the native Overworld—even in reverse or airborne. Default cooldown: 1.5 seconds. |
+| Optional arcade movement | Franklin can step onto a supported adjacent one-block ledge. Vehicle one-block ramp assistance is experimental. Toggle these helpers and bulldozer/mouse jump in **Insert → Mod features**, then **Save to INI**. |
 | Building and mining | Place and remove Minecraft blocks in Los Santos and the Overworld. Successful native bullet block removal can produce normal Minecraft loot. |
 | Guns and melee | Use supported GTA weapons against Minecraft entities and blocks. Hostile targets have a red target outline and additional body-hit handling. |
 | Explosions | Supported rockets, grenades and observed car explosions damage Minecraft terrain. Their block blast is roughly equivalent to three TNTs by nominal affected volume, with normal material/protection rules. |
@@ -78,6 +79,7 @@ First-time setup requires the separate dependencies above; it is not a certified
 | **F11** | Open the mod's Minecraft-style title menu |
 | **G** | Nearest-car entry request when Minecraft controls the player in the GTA mirror |
 | **F** | Normal native GTA vehicle entry/exit |
+| **Left click while driving** | Car jump in eligible GTA-controlled Overworld cars; the click is consumed instead of firing. On-foot attacks are unchanged. |
 | **E / horn** | Car jump in eligible native Overworld driving; Minecraft inventory when Minecraft owns input |
 | **Space near a shore** | Request native climb from supported Minecraft surface water onto a nearby dry full-cube ledge |
 | **Esc / O** | GTA pause / Minecraft menu in the routed GTA mirror context |
@@ -134,8 +136,9 @@ Mindkét eredeti játék saját példánya szükséges. **Nem hivatalos Minecraf
 |---|---|
 | Két összekapcsolt világ | Természetes Minecraft Overworld és a GTA-világ külön Minecraft-tükre. Váltás F9-cel vagy támogatott portálokkal. |
 | Franklin a Minecraftban | Natív GTA-mozgás, fegyverek és járművek; Minecraft-megjelenítés és irányítás is választható. |
-| Autózás és drift | Közeli Minecraft-terepen, streamelt blokk-collisionnel. Erős ütközés engedélyezett blokkokat is bonthat. |
-| Autóugrás | Natív Overworldben kürttel, alapból **E / kontroller L3**. Tolatva és levegőben is kérhető, alapból 1,5 másodperces várakozással. |
+| Autózás és drift | Közeli Minecraft-terepen, streamelt blokk-collisionnel. Az alapból bekapcsolt rombolómód előremenetben és tolatva is töri a kocsi előtti törhető blokkokat. A föld/homok könnyebb, a fa/kő jobban lassít; a bedrock, védett és tárolóblokkok megmaradnak. |
+| Autóugrás | Natív Overworldben vezetőként **bal klikkel**, vagy kürttel, alapból **E / kontroller L3**. Tolatva és levegőben is kérhető, alapból 1,5 másodperces várakozással. |
+| Kapcsolható mozgási segítségek | Franklin stabil, közvetlen egyblokkos peremre automatikusan felléphet. Az autós egyblokkos rámpasegéd kísérleti. **Insert → Mod funkciók** alatt a rombolómód, egérugrás és mozgási segédek kapcsolhatók; **Mentés ini-be** megtartja őket. |
 | Építés és bányászat | Minecraft-blokkok lerakása/bontása mindkét világban. Sikeres natív lövéses blokkbontás normál Minecraft-lootot kérhet. |
 | Fegyverek és közelharc | Támogatott GTA-fegyverek Minecraft-lények és blokkok ellen; hostile célpontok piros körvonalat és kiegészítő testtalálat-kezelést kapnak. |
 | Robbanások | Támogatott rakéta, gránát és megfigyelt autórobbanás rombolja a Minecraft-terepet. Az érintett térfogat nagyjából három TNT-éhez igazodik, anyag- és védelmi szabályokkal. |
@@ -190,6 +193,7 @@ Enhanced, GTA Online, FiveM, tetszőleges patch és multiplayer-szinkron nincs t
 | **F11** | A mod Minecraft-stílusú főmenüje |
 | **G** | Legközelebbi autós beszálláskérés Minecraft-vezérlésnél, GTA-tükörben |
 | **F** | Normál natív GTA be-/kiszállás |
+| **Bal klikk vezetés közben** | Autóugrás jogosult, GTA által irányított Overworld-autóban; ilyenkor nem lő. A gyalogos támadás változatlan. |
 | **E / kürt** | Jogosult autó ugrása natív Overworldben; Minecraft-inputnál inventory |
 | **Space a partnál** | Saját Minecraft-víz felszínéről közeli száraz teljes kockára kapaszkodás kérése |
 | **Esc / O** | GTA pause / Minecraft-menü a GTA-tükör megfelelő inputhelyzetében |

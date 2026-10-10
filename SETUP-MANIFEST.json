@@ -17,15 +17,15 @@
   "payloads": {
     "asi": {
       "path": "gta/GtaCraft.asi",
-      "sha256": "265f6fff17da206642cb9c9051aac034a935fe6d5b1bf8a5edaf370327f48df7"
+      "sha256": "156f478e02a31d9e36411e87a61cfb5bdcdb06d516294f1649dac35a184f9cee"
     },
     "jar": {
       "path": "minecraft/skycraft-0.1.0-gtacraft.jar",
-      "sha256": "3e94aa5da7ca839af4dfa4836e0e980d3cf33382cafd4151dd0201dee53c8d42"
+      "sha256": "bc920c9561c9311692345963531848fc7333a0099bfd858235c7ef7c541bce10"
     },
     "ini": {
       "path": "gta/GtaCraft.ini",
-      "sha256": "86346ef2c7fbb27ada6e4d3faa1219235c9517d394df1e36c0d8091f0076b2ee"
+      "sha256": "78b00bde2f308f679343637f81f70191cabadb584a0559bbc628da7af3092fc3"
     },
     "fabric_api": {
       "path": "minecraft/fabric-api-0.161.0+26.3.jar",

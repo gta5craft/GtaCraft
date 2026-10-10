@@ -1,6 +1,6 @@
 # GtaCraft – egyszeri beállítás, egygombos telepítés és indítás
 
-2026-10-09 documentation for the 2026-10-07 wallfix pair. A HU és EN csomag kísérleti előzetes, azonos modbinárisokkal és közös angol–magyar leírással. A `Start.cmd` egy Windows-ablakot nyit; az ablak és a GtaCraft menüje **mindkét kiadásban alapból angol**. A játékban élő magyar váltás: **Insert → Status and keys → Menu language → Magyar**; a választás megmarad. A már előkészített rendszerben egy **Install / Telepítés**, később egy **Play / Játék indítása** gomb elég. Új gépen előbb külön be kell állítani az alábbi előfeltételeket.
+GtaCraft 0.1.2 setup documentation, 2026-10-10. A HU és EN csomag kísérleti előzetes, azonos modbinárisokkal és közös angol–magyar leírással. A `Start.cmd` egy Windows-ablakot nyit; az ablak és a GtaCraft menüje **mindkét kiadásban alapból angol**. A játékban élő magyar váltás: **Insert → Status and keys → Menu language → Magyar**; a választás megmarad. A már előkészített rendszerben egy **Install / Telepítés**, később egy **Play / Játék indítása** gomb elég. Új gépen előbb külön be kell állítani az alábbi előfeltételeket.
 
 ## Magyar útmutató
 

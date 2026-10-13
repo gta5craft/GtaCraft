@@ -40,6 +40,7 @@ You need your own original copies of both games. **NOT AN OFFICIAL MINECRAFT PRO
 | End encounter | A custom End fight above Los Santos, with up to five rooftop crystal towers and an increased Minecraft view budget around the cluster. |
 | Events and survival features | Night invasions, traders, death drops/XP, horses, elytra, linked time/weather and sleep. |
 | Developer menu | Spawn vehicles/NPCs, customize cars, change player/weather settings, get items, trigger events, run supported commands and teleport. Search, favorites, recent selections and saved waypoints are included. |
+| Locate in the current world | Menu search stays in the loaded save, including Franklin-controlled Overworld. In Los Santos, `/locate structure minecraft:end_city` finds completed rooftop End cities; `/gtacraft locate endisland` finds the built main island. Loaded blocks, entities and waypoints are searchable there too. For a menu teleport, switch to Minecraft control with **F7** first. |
 | English and Hungarian | The menu starts in English. Change it live at **Insert → Status and keys → Menu language → English / Magyar**. Your choice is saved. Both ZIPs contain the same mod and full bilingual documentation. |
 
 These features describe the implementation. This is an **experimental preview**: terrain collision, depth, long sessions and Overworld ground-police behavior still have limitations. Read [Known issues](KNOWN_ISSUES.md), use a separate test instance and back up your saves. Broader progression features are not certified as a complete playthrough.
@@ -154,6 +155,7 @@ Mindkét eredeti játék saját példánya szükséges. **Nem hivatalos Minecraf
 | End-harc | Egyedi End-harc Los Santos fölött, legfeljebb öt felhőkarcolós kristálytoronnyal és a környéken megnövelt Minecraft-látótávolsággal. |
 | Események és túlélés | Éjszakai invázió, kereskedők, halál utáni drop/XP, lovak, elytra, összekapcsolt idő/időjárás és alvás. |
 | Fejlesztői menü | Jármű-/NPC-spawn, autótestreszabás, játékos/időjárás, tárgyak, események, támogatott parancsok és teleport. Keresés, kedvencek, előzmények és saját helyek. |
+| Keresés az aktuális világban | A menü keresése a betöltött mentésben marad, Franklinnel az Overworldben is. Los Santosban a `/locate structure minecraft:end_city` az elkészült rooftop End-városokat, a `/gtacraft locate endisland` a megépült főszigetet keresi. A betöltött blokkok, lények és saját helyek is kereshetők. A menüs teleporthoz előbb **F7**-tel válts Minecraft-irányításra. |
 | Angol és magyar | Alapból angol menü. Élő váltás: **Insert → Status and keys → Menu language → English / Magyar**. A választás megmarad; mindkét ZIP teljes kétnyelvű leírást ad. |
 
 Ezek az implementált funkciók. **Kísérleti előzetes:** a terep-collision, mélységkezelés, hosszú munkamenetek és földi Overworld-rendőrök működése korlátozott. Olvasd el az [ismert hibákat](KNOWN_ISSUES.md), külön tesztinstance-t használj, és mentsd a világokat. A teljes fejlődési/végigjátszási út nincs igazolva.

@@ -1,9 +1,10 @@
 # Known issues / Ismert hibák
 
-Status: 0.1.2. The author reports successful destructive car driving in the installed build. This is a limited gameplay observation; other reported limits remain below.
+Status: 0.1.3. Locate has targeted offline regression coverage; this update has not been tested in retail gameplay. Earlier gameplay observations and limits remain applicable.
 
 | Area | Current evidence and practical limit |
 |---|---|
+| Locate teleport | Search stays in the current save. Menu teleport requires Minecraft control (F7); native Franklin control returns coordinates and instructions. The GTA mirror has authored End sites, not naturally generated villages/biomes. Retail Mixin/chat/menu execution for this update remains unverified. |
 | Arcade movement | Dense terrain, delayed block acknowledgements or missing collision data can still stop a car. Bedrock, protected and container blocks stay solid. Automatic car ramps and Franklin step-up need broader gameplay coverage. |
 | Overworld police | The last natural-terrain observation saw an owned foot officer disappear after two seconds; no patrol car appeared within 29 seconds. Stable ground pursuit is not accepted. Helicopter activity is not a substitute for this test. |
 | Driving along walls | Earlier real drives reproduced stops along a long wall. The final position-before-velocity fix passed 9 targeted checks, with 39 continuous-wall and 2 separating-contact checks, but was not retested in the running game. These counts do not prove complete driving correctness. |
@@ -19,6 +20,8 @@ Status: 0.1.2. The author reports successful destructive car driving in the inst
 | Long sessions | A successful build, fixture or screenshot does not establish hours of crash-free play, complete story compatibility or universal terrain navigation. |
 
 ## Magyar
+
+- A Locate-javítás célzott, játékindítás nélküli ellenőrzései sikeresek; az új chat/menü működését valódi játékban még nem teszteltük. A menüs teleport F7-es Minecraft-irányítást igényel. Los Santosban nincs természetes falugenerálás; az elkészült End-helyszínek kereshetők.
 
 - A készítő az új autós rombolást kipróbálta, működőnek jelezte. Ez korlátozott megfigyelés, nem teljes hibamentességi igazolás. Tömör fal/késő blokkfrissítés még megállíthatja az autót; az autós rámpa és gyalogos fellépés további játékbeli próbát igényel.
 

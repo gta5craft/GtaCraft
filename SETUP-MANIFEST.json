@@ -17,11 +17,11 @@
   "payloads": {
     "asi": {
       "path": "gta/GtaCraft.asi",
-      "sha256": "156f478e02a31d9e36411e87a61cfb5bdcdb06d516294f1649dac35a184f9cee"
+      "sha256": "f92c213897666f1c17baac8ee2b688ec7b0677101d6e3960fb984776ffe9921c"
     },
     "jar": {
       "path": "minecraft/skycraft-0.1.0-gtacraft.jar",
-      "sha256": "bc920c9561c9311692345963531848fc7333a0099bfd858235c7ef7c541bce10"
+      "sha256": "cc4e97c67264bad893962d3bec882e6443a862893b5474f1b0f504ab15a38c77"
     },
     "ini": {
       "path": "gta/GtaCraft.ini",
